@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+PackageIdentifier: RichardZhang.Crossbow
+PackageVersion: 0.13.8
+PackageLocale: en-US
+Publisher: Richard Zhang
+PublisherUrl: https://github.com/Richard-Zhang1019
+PublisherSupportUrl: https://github.com/Richard-Zhang1019/Crossbow/issues
+Author: Richard Zhang
+PackageName: Crossbow
+PackageUrl: https://github.com/Richard-Zhang1019/Crossbow
+License: MIT
+LicenseUrl: https://github.com/Richard-Zhang1019/Crossbow/blob/main/LICENSE
+Copyright: Copyright (c) 2026 Richard Zhang
+ShortDescription: Cross-platform proxy client with mihomo / sing-box dual core.
+Description: |-
+  Crossbow is an open-source, cross-platform proxy client built with Tauri 2, React and Rust.
+  It supports mihomo / sing-box dual cores with one-click switching, subscription management,
+  system proxy and TUN mode (independently controllable), connection and log inspection, and a
+  menu-bar / tray live speed display. macOS builds are Developer ID signed and notarized; the
+  Windows installer ships with a controlled system service for TUN.
+Tags:
+  - proxy
+  - clash
+  - mihomo
+  - sing-box
+  - network
+  - tun
+Moniker: crossbow
+ManifestType: defaultLocale
+ManifestVersion: 1.6
