@@ -1,9 +1,9 @@
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 PackageIdentifier: RichardZhang.Crossbow
 PackageVersion: 0.13.8
 Installers:
   - Architecture: x64
-    InstallerType: nsis
+    InstallerType: nullsoft
     InstallerUrl: https://github.com/Richard-Zhang1019/Crossbow/releases/download/v0.13.8/Crossbow_0.13.8_x64-setup.exe
     InstallerSha256: 15861B74186EF9AE18A027D5D437F8EB8E9834F705CC21EBE8292668CD70511B
     InstallerSwitches:
@@ -13,4 +13,4 @@ Installers:
     UpgradeBehavior: install
     ReleaseDate: 2026-11-07
 ManifestType: installer
-ManifestVersion: 1.28
+ManifestVersion: 1.10
