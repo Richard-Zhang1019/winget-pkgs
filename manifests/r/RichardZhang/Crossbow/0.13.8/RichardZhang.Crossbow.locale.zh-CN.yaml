@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.6.0.schema.json
+PackageIdentifier: RichardZhang.Crossbow
+PackageVersion: 0.13.8
+PackageLocale: zh-CN
+Publisher: Richard Zhang
+ShortDescription: 跨平台代理客户端（mihomo / sing-box 双内核）。
+Description: |-
+  Crossbow 是一款开源的跨平台代理客户端，基于 Tauri 2、React 与 Rust 构建。
+  支持 mihomo / sing-box 双内核一键切换、订阅管理、系统代理与 TUN 模式（可独立控制）、
+  连接与日志查看，以及菜单栏 / 托盘实时速率显示。macOS 版本经 Developer ID 签名与公证；
+  Windows 安装包附带受控系统服务以承载 TUN。
+Tags:
+  - proxy
+  - clash
+  - mihomo
+  - sing-box
+  - network
+  - tun
+ManifestType: locale
+ManifestVersion: 1.6
