@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 PackageIdentifier: RichardZhang.Crossbow
 PackageVersion: 0.13.8
 Installers:
@@ -13,4 +13,4 @@ Installers:
     UpgradeBehavior: install
     ReleaseDate: 2026-11-07
 ManifestType: installer
-ManifestVersion: 1.6
+ManifestVersion: 1.28
